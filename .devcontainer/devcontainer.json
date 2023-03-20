@@ -1,0 +1,13 @@
+{
+  "image": "python:3.8-buster",
+  "updateContentCommand": "git clone https://github.com/dizzyturnover/this_is_priv.git /tmp/this_is_priv && cat /tmp/this_is_priv/README.md",
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "dizzyturnover/this_is_priv": {
+          "permissions": "read-all"
+        }
+      }
+    }
+  }
+}
